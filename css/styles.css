@@ -22,6 +22,7 @@ main {
 .main_text h1 {
   font-size: 48px;
   font-weight: 700;
+  margin-bottom: 13px;
 }
 .main_text p {
   font-size: 18px;
