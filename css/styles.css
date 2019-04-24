@@ -4,8 +4,12 @@
 body {
   width: 100%;
 }
-header {
-  height: 100px;
-  background: red;
+main {
+  display: flex;
+  width: 1440px;
+  height: 800px;
+  background-image: url("../img/Rectangle.jpg");
+  background-repeat: no-repeat;
+  background-position: 20% 105%;
 }
 /*# sourceMappingURL=styles.css.map */
