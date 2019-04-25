@@ -4,6 +4,9 @@
 body {
   width: 100%;
 }
+a {
+  text-decoration: none;
+}
 @font-face {
   font-family: Aileron-Bold;
   src: url("../fonts/Aileron-Bold.ttf");
@@ -12,10 +15,20 @@ body {
   font-family: Aileron-Regular;
   src: url("../fonts/Aileron-Regular.ttf");
 }
+.request a {
+  color: white;
+  background: #2f5bea;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0;
+  padding: 18px 32px 17px 32px;
+  border-radius: 30px;
+}
+/*404*/
 main {
   display: flex;
   width: 100%;
-  height: 100%;
+  height: 800px;
   background-image: url("../img/rectangle.jpg");
   background-repeat: no-repeat;
   background-position: 34.5% 105.5%;
@@ -50,7 +63,6 @@ main {
   line-height: 34px;
   letter-spacing: 1px;
   color: white;
-  text-decoration: none;
 }
 .main_text a:link {
   color: white;
@@ -73,16 +85,58 @@ main {
 .main_img {
   padding-top: 6.7%;
 }
+@media (min-width: 1450px) {
+  .main_img {
+    width: 47.5%;
+  }
+}
 .main_img img {
   width: 699px;
   height: 619px;
 }
+/*main header*/
 header {
   width: 100%;
   height: 900px;
-  border: red 1px solid;
+  padding-top: 42px;
   background-image: url("../img/background.jpg");
   background-repeat: no-repeat;
   background-position: 69% 91%;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  width: 69.24%;
+  height: 51px;
+  margin: 0 auto;
+}
+nav a {
+  font-family: Aileron-Regular;
+  font-size: 16px;
+  font-weight: 400;
+  color: #2c2e30;
+}
+.nav-logo {
+  margin-right: 7.2%;
+}
+.nav-link,
+.nav-request {
+  margin-top: 2px;
+}
+.nav-link-active {
+  border-bottom: #2f5bea 1px solid;
+  height: 28px;
+}
+.nav-request {
+  margin-left: 10.1%;
+}
+.nav-request a {
+  font-family: Aileron-Regular;
+  font-size: 14px;
+  font-weight: 700;
+  color: #2f5bea;
+  padding: 18px 30px 18px 21px;
+  border: #2f5bea 1px solid;
+  border-radius: 30px;
 }
 /*# sourceMappingURL=styles.css.map */
