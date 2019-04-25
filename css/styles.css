@@ -206,7 +206,7 @@ nav a {
   width: 69.44%;
   margin: 0 auto;
   padding-top: 107px;
-  padding-bottom: 115px;
+  padding-bottom: 120px;
 }
 .about-me-container {
   display: flex;
@@ -257,5 +257,34 @@ nav a {
   z-index: -1;
   left: 99.5%;
   top: 518px;
+}
+.guarantees {
+  width: 69.44%;
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 120px;
+}
+.guarantees-container {
+  display: flex;
+  justify-content: space-between;
+}
+.guarantees-card {
+  width: 31.3%;
+  padding-top: 112px;
+  padding-left: 13px;
+  padding-right: 13px;
+}
+.guarantees-card img {
+  width: 112px;
+  padding-bottom: 27px;
+}
+.guarantees-card p {
+  font-family: Aileron-Bold;
+  font-size: 20px;
+  font-weight: 700;
+  color: #2c2e30;
+  line-height: 31px;
+  letter-spacing: -0.4px;
+  margin-bottom: 100px;
 }
 /*# sourceMappingURL=styles.css.map */
