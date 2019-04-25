@@ -258,7 +258,8 @@ nav a {
   left: 99.5%;
   top: 518px;
 }
-.guarantees {
+.guarantees,
+.price {
   width: 69.44%;
   margin: 0 auto;
   text-align: center;
@@ -286,5 +287,43 @@ nav a {
   line-height: 31px;
   letter-spacing: -0.4px;
   margin-bottom: 100px;
+}
+.price-sum {
+  width: 100%;
+  height: 146px;
+  text-align: center;
+  margin-top: 61px;
+  padding-top: 29px;
+  border: #e7Eaee 1px solid;
+  border-bottom: none;
+}
+.price-sum h5 {
+  font-family: Aileron-Regular;
+  font-size: 60px;
+  font-weight: 400;
+  color: #2f5bea;
+}
+.price-sum p {
+  font-family: Aileron-Bold;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 34px;
+  letter-spacing: 0;
+  color: #7e8085;
+}
+.price-info {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  border: #e7Eaee 1px solid;
+}
+.price-info-text {
+  width: 17.68%;
+  padding-top: 51px;
+  background-image: url("../img/price-bg.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  text-align: center;
+  height: 152px;
 }
 /*# sourceMappingURL=styles.css.map */
