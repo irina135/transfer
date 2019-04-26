@@ -117,6 +117,12 @@ header {
   /*background-position: 69% 100%;*/
   background-size: 100% 100%;
 }
+@media (max-width: 1200px) {
+  header {
+    padding-bottom: 145px;
+    margin-bottom: 0;
+  }
+}
 nav {
   display: flex;
   justify-content: space-between;
@@ -124,14 +130,34 @@ nav {
   height: 51px;
   margin: 0 auto;
 }
+@media (max-width: 1200px) {
+  nav {
+    width: 91.8%;
+  }
+}
+@media (max-width: 768px) {
+  nav {
+    width: 91.8%;
+  }
+}
 nav a {
   font-family: Aileron-Regular;
   font-size: 16px;
   font-weight: 400;
   color: #2c2e30;
 }
+@media (max-width: 768px) {
+  nav a {
+    font-size: 14px;
+  }
+}
 .nav-logo {
   margin-right: 7.6%;
+}
+@media (max-width: 768px) {
+  .nav-logo img {
+    width: 160px;
+  }
 }
 .nav-link,
 .nav-request {
@@ -153,15 +179,31 @@ nav a {
   border: #2f5bea 1px solid;
   border-radius: 30px;
 }
+@media (max-width: 768px) {
+  .nav-request a {
+    font-size: 12px;
+    padding: 12px 20px 13px 14px;
+  }
+}
 .header-container {
   display: flex;
   justify-content: space-between;
   width: 69.5%;
   margin: 0 auto;
 }
+@media (max-width: 1200px) {
+  .header-container {
+    width: 91.8%;
+  }
+}
 .header-text {
   margin-top: 90px;
   width: 50%;
+}
+@media (max-width: 1200px) {
+  .header-text {
+    margin-top: 20px;
+  }
 }
 .header-text h1 {
   font-family: Aileron-Bold;
@@ -170,6 +212,12 @@ nav a {
   margin-bottom: 12px;
   line-height: 58px;
   letter-spacing: -1px;
+}
+@media (max-width: 1200px) {
+  .header-text h1 {
+    font-size: 38px;
+    line-height: 48px;
+  }
 }
 .header-text h1 span {
   color: #2f5bea;
@@ -182,6 +230,21 @@ nav a {
   margin-top: 48px;
   margin-bottom: 191px;
 }
+@media (max-width: 1200px) {
+  .header-img {
+    margin-top: 1px;
+  }
+}
+@media (max-width: 1200px) {
+  .header-img img {
+    width: 400px;
+  }
+}
+@media (max-width: 768px) {
+  .header-img img {
+    width: 311px;
+  }
+}
 .header-list {
   margin-bottom: 59px;
 }
@@ -193,6 +256,11 @@ nav a {
   line-height: 28px;
   letter-spacing: -0.2px;
   color: #2c2e30;
+}
+@media (max-width: 1200px) {
+  .header-list li p {
+    line-height: 26px;
+  }
 }
 .header-list li p span.header-list-style {
   display: inline-block;
@@ -213,6 +281,12 @@ nav a {
   padding-top: 107px;
   padding-bottom: 120px;
 }
+@media (max-width: 1200px) {
+  .about-me {
+    padding-top: 50px;
+    padding-bottom: 70px;
+  }
+}
 .about-me-container {
   display: flex;
   justify-content: space-between;
@@ -232,6 +306,14 @@ nav a {
   padding-left: 13px;
   padding-right: 13px;
 }
+@media (max-width: 1200px) {
+  .about-me-card {
+    padding-top: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+    height: 270px;
+  }
+}
 .about-me-card h4 {
   font-family: Aileron-Bold;
   font-size: 24px;
@@ -240,6 +322,11 @@ nav a {
   letter-spacing: 0;
   color: #2c2e30;
   margin-bottom: 14px;
+}
+@media (max-width: 1200px) {
+  .about-me-card h4 {
+    margin-bottom: 5px;
+  }
 }
 .about-me-card p {
   font-family: Aileron-Regular;
@@ -256,6 +343,11 @@ nav a {
   top: 59px;
   left: -10.6%;
   z-index: -1;
+}
+@media (max-width: 1200px) {
+  .about-me-img1 {
+    top: 29px;
+  }
 }
 .about-me-img2 {
   position: absolute;
@@ -287,6 +379,11 @@ nav a {
   padding-top: 110px;
   padding-left: 13px;
   padding-right: 13px;
+}
+@media (max-width: 1200px) {
+  .guarantees-card {
+    padding-top: 50px;
+  }
 }
 .guarantees-card img {
   width: 112px;
@@ -333,6 +430,11 @@ nav a {
 .price-img3 {
   left: 868px;
   top: 356px;
+}
+@media (max-width: 1200px) {
+  .price-img3 {
+    left: 79%;
+  }
 }
 .price-img3 img {
   width: 266px;
@@ -406,6 +508,12 @@ nav a {
   background-image: url("../img/form-bg.png");
   background-size: 100% 100%;
   background-repeat: no-repeat;
+}
+@media (max-width: 1200px) {
+  .main-form {
+    padding-top: 70px;
+    padding-bottom: 60px;
+  }
 }
 .form-container {
   width: 40.28%;
