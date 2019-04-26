@@ -16,12 +16,13 @@ a {
   src: url("../fonts/Aileron-Regular.ttf");
 }
 .request a {
+  font-family: Aileron-Regular;
   color: white;
   background: #2f5bea;
   font-size: 16px;
   font-weight: 700;
-  letter-spacing: -0.2px;
-  padding: 18px 32px 17px 32px;
+  letter-spacing: 0.6px;
+  padding: 21px 34px 18px 32px;
   border-radius: 30px;
 }
 h3 {
@@ -29,17 +30,18 @@ h3 {
   text-align: center;
   font-size: 34px;
   font-weight: 700;
-  letter-spacing: -0.3px;
+  letter-spacing: -0.5px;
   color: #2c2e30;
 }
 /*404*/
 main {
   display: flex;
   width: 100%;
-  height: 800px;
-  background-image: url("../img/rectangle.jpg");
+  height: auto;
+  background-image: url("../img/404_изображение.jpg");
   background-repeat: no-repeat;
-  background-position: 34.5% 105.5%;
+  background-size: 100% 100%;
+  /*background-position: 34.5% 105.5%;*/
 }
 .main_text {
   padding-left: 15.3%;
@@ -105,7 +107,9 @@ main {
 header {
   width: 100%;
   height: auto;
-  margin-bottom: 60px;
+  padding-bottom: 57px;
+  /*height: 1000px;*/
+  margin-bottom: 6px;
   padding-top: 42px;
   background-image: url("../img/header-bg.png");
   background-repeat: no-repeat;
@@ -126,17 +130,17 @@ nav {
   }
 }
 .nav-logo {
-  margin-right: 7.2%;
+  margin-right: 7.6%;
 }
 .nav-link, .nav-request {
-  margin-top: 2px;
+  margin-top: 4px;
 }
 .nav-link-active {
   border-bottom: #2f5bea 1px solid;
   height: 28px;
 }
 .nav-request {
-  margin-left: 10.1%;
+  margin-left: 11.2%;
 }
 .nav-request a {
   font-family: Aileron-Regular;
@@ -162,7 +166,7 @@ nav {
     font-weight: 700;
     margin-bottom: 12px;
     line-height: 58px;
-    letter-spacing: -3px;
+    letter-spacing: -1px;
     span {
       color: #2f5bea;
     }
@@ -171,8 +175,8 @@ nav {
 .header-text-margin {margin-left: 30px}
 .header-img {
   width: 48.5%;
-  margin-top: 46px;
-  margin-bottom: 193px;
+  margin-top: 48px;
+  margin-bottom: 191px;
 }
 .header-list {
   margin-bottom: 59px;
@@ -217,7 +221,7 @@ nav {
   width: 31.5%;
   height: 239px;
   border: #e7Eaee 1px solid;
-  box-shadow: 0 2px 4px 0 #2c2e30;
+  box-shadow: 0 2px 4px 0 #e7Eaee;
   border-radius: 5px;
   text-align: center;
   padding-top: 38px;
@@ -266,18 +270,21 @@ nav {
   text-align: center;
   padding-bottom: 120px;
 }
+.guarantees {
+  margin-top: 2px;
+}
 .guarantees-container {
   display: flex;
   justify-content: space-between;
 }
 .guarantees-card {
   width: 31.3%;
-  padding-top: 112px;
+  padding-top: 110px;
   padding-left: 13px;
   padding-right: 13px;
   img {
     width: 112px;
-    padding-bottom: 27px;
+    padding-bottom: 26px;
   }
   p {
     font-family: Aileron-Bold;
@@ -285,15 +292,15 @@ nav {
     font-weight: 700;
     color: #2c2e30;
     line-height: 31px;
-    letter-spacing: -0.4px;
+    letter-spacing: 0.5px;
     margin-bottom: 100px;
   }
 }
 .guarantees-request {
-  margin-bottom: 26px;
+  margin-bottom: 17px;
 }
 .price {
-  padding-top: 120px;
+  padding-top: 127px;
   position: relative;
 }
 .price-img1, .price-img2, .price-img3 {
@@ -302,7 +309,7 @@ nav {
 }
 .price-img1 {
   left: -70px;
-  top: 115px;
+  top: 120px;
   img {
     width: 198px;
     height: 198px;
@@ -310,15 +317,15 @@ nav {
 }
 .price-img2 {
   left: -107px;
-  top: 160px;
+  top: 166px;
   img {
     width: 199px;
     height: 193px;
   }
 }
 .price-img3 {
-  left: 865px;
-  top: 352px;
+  left: 868px;
+  top: 356px;
   img {
     width: 266px;
     height: 263px;
@@ -359,13 +366,15 @@ nav {
   justify-content: space-between;
   background: white;
   width: 100%;
+  padding-left: 30px;
+  padding-right: 30px;
   border: #e7Eaee 1px solid;
 }
 .price-info-text {
   width: 20%;
   padding-top: 52px;
-  padding-left: 10px;
-  padding-right: 10px;
+  /*padding-left: 10px;
+  padding-right: 10px;*/
   background-image: url("../img/price-bg.png");
   background-repeat: no-repeat;
   background-size: 100% 100%;
@@ -394,7 +403,7 @@ nav {
   background-repeat: no-repeat;
 }
 .form-container {
-  padding-left: 23px;
+
   width: 40.28%;
   margin: 0 auto;
   text-align: center;
@@ -403,16 +412,17 @@ nav {
     font-size: 34px;
     font-weight: 700;
     color: white;
-    letter-spacing: 0;
-    margin-bottom: 14px;
+    letter-spacing: 0.7px;
+    margin-bottom: 16px;
   }
   h6 {
+    font-family: Aileron-Regular;
     font-size: 18px;
     font-weight: 400;
     line-height: 34px;
-    letter-spacing: 0;
+    letter-spacing: -0.3px;
     color: #c5d0e6;
-    margin-bottom: 36px;
+    margin-bottom: 34px;
   }
   p {
     width: 318px;
@@ -420,21 +430,42 @@ nav {
     font-family: Aileron-Regular;
     font-size: 14px;
     font-weight: 400;
-    letter-spacing: 0;
-    line-height: 18px;
+    letter-spacing: -0.2px;
+    line-height: 17px;
     color: #c5d0e6;
   }
 }
 .form-input-style {
-  width: 523px;
+  outline: none;
+  width: 488px;
   height: 75px;
+  padding-left: 24px;
   border-radius: 5px;
   background: white;
-  padding-left: 26px;
   margin-bottom: 14px;
 }
-.form-input-style-border {
-  border: #ff482b 2px solid;
+.textarea-style {
+  padding-top: 30px;
+}
+::-webkit-input-placeholder {
+  font-family: Aileron-Regular;
+  font-size: 18px;
+  color: #7e8085;
+}
+::-moz-placeholder          {
+  font-family: Aileron-Regular;
+  font-size: 18px;
+  color: #7e8085;
+}
+:-moz-placeholder           {
+  font-family: Aileron-Regular;
+  font-size: 18px;
+  color: #7e8085;
+}
+:-ms-input-placeholder      {
+  font-family: Aileron-Regular;
+  font-size: 18px;
+  color: #7e8085;
 }
 .form-input-text-style {
   width: 523px;
@@ -445,19 +476,30 @@ nav {
 .form-input-file-style {
   padding-top: 28px;
 }
+#txtInput {
+  resize: none;
+  outline: none;
+}
 .form-btn {
   width: 307px;
   height: 55px;
   margin-top: 26px;
-  margin-bottom: 14px;
+  margin-bottom: 16px;
   border-radius: 28px;
+  padding-bottom: 8px;
+  padding-left: 13px;
   background: white;
   font-family: Aileron-Regular;
   color: #2f5bea;
   font-size: 16px;
   font-weight: 600;
-  letter-spacing: 0;
+  letter-spacing: 0.6px;
   text-transform: uppercase;
+  span {
+    font-size: 25px;
+    margin-left: 25px;
+    margin-top: 3px;
+  }
 }
 
 
