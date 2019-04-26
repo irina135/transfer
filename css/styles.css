@@ -108,9 +108,10 @@ header {
   height: auto;
   margin-bottom: 60px;
   padding-top: 42px;
-  background-image: url("../img/background.jpg");
+  background-image: url("../img/header-bg.png");
   background-repeat: no-repeat;
-  background-position: 69% 100%;
+  /*background-position: 69% 100%;*/
+  background-size: 100% 100%;
 }
 nav {
   display: flex;
@@ -258,6 +259,11 @@ nav a {
   left: 99.5%;
   top: 518px;
 }
+.guarantees-background {
+  background-image: url("../img/guarantees-bg.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
 .guarantees,
 .price {
   width: 69.44%;
@@ -287,6 +293,12 @@ nav a {
   line-height: 31px;
   letter-spacing: -0.4px;
   margin-bottom: 100px;
+}
+.guarantees-request {
+  margin-bottom: 26px;
+}
+.price {
+  padding-top: 120px;
 }
 .price-sum {
   width: 100%;
@@ -325,5 +337,10 @@ nav a {
   background-size: 100% 100%;
   text-align: center;
   height: 152px;
+}
+.price-info-text p {
+  font-size: 16px;
+  line-height: 28px;
+  color: #7e8085;
 }
 /*# sourceMappingURL=styles.css.map */
