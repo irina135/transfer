@@ -400,7 +400,7 @@ nav a {
   padding-top: 65px;
 }
 .main-form {
-  height: 1055px;
+  /* height: 1055px;*/
   padding-top: 128px;
   padding-bottom: 116px;
   background-image: url("../img/form-bg.png");
