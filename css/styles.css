@@ -65,6 +65,11 @@ h3 {
     letter-spacing: 0;
   }
 }
+@media (min-width: 1800px) {
+  h3 {
+    font-size: 40px;
+  }
+}
 /*404*/
 main {
   display: flex;
@@ -657,6 +662,11 @@ nav a {
     margin-bottom: 4px;
   }
 }
+@media (min-width: 1800px) {
+  .about-me-card h4 {
+    font-size: 28px;
+  }
+}
 .about-me-card p {
   font-family: Aileron-Regular;
   font-size: 16px;
@@ -679,6 +689,11 @@ nav a {
   .about-me-card p {
     font-size: 14px;
     line-height: 20px;
+  }
+}
+@media (min-width: 1800px) {
+  .about-me-card p {
+    font-size: 18px;
   }
 }
 .about-me-card2 {
