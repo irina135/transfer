@@ -145,7 +145,7 @@ header {
   header {
     padding-top: 27px;
     padding-bottom: 0;
-    margin-bottom: 0;
+    margin-bottom: 3px;
     background-position: 78% 90%;
   }
 }
@@ -360,10 +360,21 @@ nav a {
     padding-bottom: 70px;
   }
 }
+@media (max-width: 992px) {
+  .about-me {
+    width: 92%;
+    padding-top: 62px;
+  }
+}
 .about-me-container {
   display: flex;
   justify-content: space-between;
   margin-bottom: 25px;
+}
+@media (max-width: 992px) {
+  .about-me-container {
+    margin-bottom: 16px;
+  }
 }
 .about-me-card {
   background: white;
@@ -387,6 +398,15 @@ nav a {
     height: 270px;
   }
 }
+@media (max-width: 992px) {
+  .about-me-card {
+    width: 31.8%;
+    padding-top: 27px;
+    padding-left: 5px;
+    padding-right: 5px;
+    height: 207px;
+  }
+}
 .about-me-card h4 {
   font-family: Aileron-Bold;
   font-size: 24px;
@@ -401,12 +421,24 @@ nav a {
     margin-bottom: 5px;
   }
 }
+@media (max-width: 992px) {
+  .about-me-card h4 {
+    font-size: 16px;
+    margin-bottom: 3px;
+  }
+}
 .about-me-card p {
   font-family: Aileron-Regular;
   font-size: 16px;
   line-height: 28px;
   color: #7e8085;
   letter-spacing: 0;
+}
+@media (max-width: 992px) {
+  .about-me-card p {
+    font-size: 14px;
+    line-height: 21px;
+  }
 }
 .about-me-card2 {
   width: 48.75%;
@@ -422,11 +454,23 @@ nav a {
     top: 29px;
   }
 }
+@media (max-width: 992px) {
+  .about-me-img1 {
+    top: 15px;
+    left: -6%;
+  }
+}
 .about-me-img2 {
   position: absolute;
   z-index: -1;
   left: 99.5%;
   top: 518px;
+}
+@media (max-width: 992px) {
+  .about-me-img2 {
+    left: 96%;
+    top: 420px;
+  }
 }
 .guarantees-background {
   background-image: url("../img/guarantees-bg.png");
@@ -675,17 +719,8 @@ nav a {
   padding-bottom: 8px;
   padding-left: 1px;
   background: white;
-  /*font-family: Aileron-Regular;
-  color: #2f5bea;
-  font-size: 16px;
-  font-weight: 600;
-  letter-spacing: 0.6px;
-  text-transform: uppercase;*/
 }
 .form-btn p {
-  /*font-size: 25px;
-    margin-left: 25px;
-    margin-top: 3px;*/
   font-family: Aileron-Bold;
   color: #2f5bea;
   font-size: 16px;
