@@ -162,6 +162,12 @@ main {
   height: 619px;
 }
 /*main header*/
+.header-opacity {
+  opacity: 0.1;
+}
+.header-mobile-display-none {
+  display: none;
+}
 header {
   width: 100%;
   height: auto;
@@ -554,6 +560,63 @@ nav a {
 @media (max-width: 576px) {
   .header-reguest {
     margin-left: 1px;
+  }
+}
+/*header-mobile*/
+.header-mobile {
+  margin-top: -857px;
+  padding-top: 39px;
+  text-align: center;
+}
+@media (min-width: 576px) {
+  .header-mobile {
+    display: none;
+  }
+}
+.header-mobile-logo {
+  margin-bottom: 70px;
+}
+.header-mobile-link {
+  margin-top: 43px;
+}
+.header-mobile-link a {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 34px;
+  color: #2c2e30;
+  font-family: Aileron-Bold;
+}
+.header-mobile-line {
+  width: 68px;
+  height: 2px;
+  margin: 0 auto;
+  margin-top: 15px;
+  background: #2f5bea;
+}
+.header-mobile-request {
+  margin-top: 85px;
+}
+.header-mobile-img {
+  opacity: 0.1;
+  margin: 0 auto;
+  margin-top: 60px;
+}
+.header-mobile-img img {
+  width: 240px;
+}
+.header-mobile-btn {
+  position: absolute;
+}
+#header-img-navicon {
+  position: absolute;
+  left: 90%;
+  top: 15px;
+  font-size: 22px;
+  color: black;
+}
+@media (min-width: 576px) {
+  #header-img-navicon {
+    display: none;
   }
 }
 /*about me*/
