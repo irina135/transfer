@@ -59,6 +59,12 @@ h3 {
     font-size: 24px;
   }
 }
+@media (max-width: 576px) {
+  h3 {
+    font-size: 18px;
+    letter-spacing: 0;
+  }
+}
 /*404*/
 main {
   display: flex;
@@ -163,7 +169,7 @@ header {
 }
 @media (max-width: 576px) {
   header {
-    background-position: 80% 0;
+    background-position: 2% 0;
     padding-top: 18px;
   }
 }
@@ -386,6 +392,7 @@ nav a {
   .header-img {
     margin-top: 83px;
     margin-left: 21px;
+    margin-bottom: 33px;
   }
 }
 @media (max-width: 1200px) {
@@ -506,6 +513,12 @@ nav a {
     padding-bottom: 70px;
   }
 }
+@media (max-width: 576px) {
+  .about-me {
+    width: 100%;
+    padding-top: 38px;
+  }
+}
 .about-me-container {
   display: flex;
   justify-content: space-between;
@@ -514,6 +527,12 @@ nav a {
 @media (max-width: 992px) {
   .about-me-container {
     margin-bottom: 16px;
+  }
+}
+@media (max-width: 576px) {
+  .about-me-container {
+    display: inline-block;
+    margin-bottom: 0;
   }
 }
 .about-me-card {
@@ -552,6 +571,15 @@ nav a {
     padding-top: 20px;
   }
 }
+@media (max-width: 576px) {
+  .about-me-card {
+    margin: 0 auto;
+    width: 89%;
+    height: 167px;
+    margin-bottom: 8px;
+    padding-top: 24px;
+  }
+}
 .about-me-card h4 {
   font-family: Aileron-Bold;
   font-size: 24px;
@@ -578,6 +606,12 @@ nav a {
     margin-bottom: 0;
   }
 }
+@media (max-width: 576px) {
+  .about-me-card h4 {
+    font-size: 15px;
+    margin-bottom: 4px;
+  }
+}
 .about-me-card p {
   font-family: Aileron-Regular;
   font-size: 16px;
@@ -596,8 +630,21 @@ nav a {
     font-size: 12px;
   }
 }
+@media (max-width: 576px) {
+  .about-me-card p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
 .about-me-card2 {
   width: 48.75%;
+}
+@media (max-width: 576px) {
+  .about-me-card2 {
+    margin: 0 auto;
+    width: 89%;
+    margin-bottom: 8px;
+  }
 }
 .about-me-img1 {
   position: absolute;
@@ -616,6 +663,15 @@ nav a {
     left: -6%;
   }
 }
+@media (max-width: 576px) {
+  .about-me-img1 {
+    top: 1px;
+    left: -6%;
+  }
+  .about-me-img1 img {
+    width: 100px;
+  }
+}
 .about-me-img2 {
   position: absolute;
   z-index: -1;
@@ -632,6 +688,15 @@ nav a {
   .about-me-img2 {
     top: 420px;
     left: 93.5%;
+  }
+}
+@media (max-width: 576px) {
+  .about-me-img2 {
+    top: 874px;
+    left: 90%;
+  }
+  .about-me-img2 img {
+    width: 33px;
   }
 }
 .guarantees-background {
