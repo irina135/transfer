@@ -1281,6 +1281,12 @@ nav a {
     margin-bottom: 14px;
   }
 }
+@media (min-width: 1800px) {
+  .form-container h5 {
+    font-size: 42px;
+    margin-bottom: 20px;
+  }
+}
 .form-container h6 {
   font-family: Aileron-Regular;
   font-size: 18px;
@@ -1304,6 +1310,12 @@ nav a {
     margin: 0 auto;
     margin-bottom: 20px;
     letter-spacing: 0.2px;
+  }
+}
+@media (min-width: 1800px) {
+  .form-container h6 {
+    font-size: 22px;
+    margin-bottom: 40px;
   }
 }
 .form-container p {
@@ -1354,6 +1366,13 @@ nav a {
     padding-left: 14px;
   }
 }
+@media (min-width: 1800px) {
+  .form-input-style {
+    width: 520px;
+    height: 95px;
+    margin-bottom: 24px;
+  }
+}
 .textarea-style {
   padding-top: 30px;
 }
@@ -1377,6 +1396,11 @@ nav a {
     font-size: 14px;
   }
 }
+@media (min-width: 1800px) {
+  ::-webkit-input-placeholder {
+    font-size: 24px;
+  }
+}
 ::-moz-placeholder {
   font-family: Aileron-Regular;
   font-size: 18px;
@@ -1390,6 +1414,11 @@ nav a {
 @media (max-width: 576px) {
   ::-moz-placeholder {
     font-size: 14px;
+  }
+}
+@media (min-width: 1800px) {
+  ::-moz-placeholder {
+    font-size: 24px;
   }
 }
 :-moz-placeholder {
@@ -1407,6 +1436,11 @@ nav a {
     font-size: 14px;
   }
 }
+@media (min-width: 1800px) {
+  :-moz-placeholder {
+    font-size: 24px;
+  }
+}
 :-ms-input-placeholder {
   font-family: Aileron-Regular;
   font-size: 18px;
@@ -1420,6 +1454,11 @@ nav a {
 @media (max-width: 576px) {
   :-ms-input-placeholder {
     font-size: 14px;
+  }
+}
+@media (min-width: 1800px) {
+  :-ms-input-placeholder {
+    font-size: 24px;
   }
 }
 .form-input-text-style {
@@ -1461,6 +1500,14 @@ nav a {
     padding-top: 10px;
   }
 }
+@media (min-width: 1800px) {
+  .form-btn {
+    margin-top: 36px;
+    width: 357px;
+    height: 75px;
+    border-radius: 38px;
+  }
+}
 .form-btn p {
   font-family: Aileron-Bold;
   color: #2f5bea;
@@ -1473,6 +1520,11 @@ nav a {
   .form-btn p {
     font-size: 12px;
     letter-spacing: 0;
+  }
+}
+@media (min-width: 1800px) {
+  .form-btn p {
+    font-size: 20px;
   }
 }
 /*# sourceMappingURL=styles.css.map */
