@@ -46,6 +46,12 @@ a {
     font-size: 12px;
   }
 }
+@media (min-width: 1800px) {
+  .request a {
+    font-size: 20px;
+    padding: 24px 36px 24px 27px;
+  }
+}
 h3 {
   font-family: Aileron-Bold;
   text-align: center;
@@ -842,6 +848,11 @@ nav a {
     padding-bottom: 17px;
   }
 }
+@media (min-width: 1800px) {
+  .guarantees-card img {
+    width: 130px;
+  }
+}
 .guarantees-card p {
   font-family: Aileron-Bold;
   font-size: 20px;
@@ -863,6 +874,11 @@ nav a {
     line-height: 20px;
     margin-bottom: 10px;
     letter-spacing: 0;
+  }
+}
+@media (min-width: 1800px) {
+  .guarantees-card p {
+    font-size: 24px;
   }
 }
 .guarantees-request {
