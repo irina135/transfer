@@ -671,19 +671,26 @@ nav a {
   margin-top: 26px;
   margin-bottom: 16px;
   border-radius: 28px;
+  padding-top: 13px;
   padding-bottom: 8px;
-  padding-left: 13px;
+  padding-left: 1px;
   background: white;
-  font-family: Aileron-Regular;
+  /*font-family: Aileron-Regular;
   color: #2f5bea;
   font-size: 16px;
   font-weight: 600;
   letter-spacing: 0.6px;
-  text-transform: uppercase;
+  text-transform: uppercase;*/
 }
-.form-btn span {
-  font-size: 25px;
-  margin-left: 25px;
-  margin-top: 3px;
+.form-btn p {
+  /*font-size: 25px;
+    margin-left: 25px;
+    margin-top: 3px;*/
+  font-family: Aileron-Bold;
+  color: #2f5bea;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
 }
 /*# sourceMappingURL=styles.css.map */
