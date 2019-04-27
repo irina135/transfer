@@ -831,7 +831,7 @@ nav a {
 }
 @media (max-width: 576px) {
   .price {
-    padding-top: 70px;
+    padding-top: 58px;
   }
 }
 .price-img1,
@@ -852,8 +852,8 @@ nav a {
 }
 @media (max-width: 576px) {
   .price-img1 {
-    top: 85px;
-    left: -30px;
+    top: 49px;
+    left: -33px;
   }
 }
 .price-img1 img {
@@ -884,7 +884,7 @@ nav a {
 }
 @media (max-width: 576px) {
   .price-img2 {
-    top: 100px;
+    top: 70px;
     left: -50px;
   }
 }
@@ -927,6 +927,7 @@ nav a {
 @media (max-width: 576px) {
   .price-img3 {
     left: 42%;
+    top: 300px;
   }
 }
 .price-img3 img {
@@ -961,7 +962,8 @@ nav a {
   .price-sum {
     width: 89%;
     margin: 0 auto;
-    margin-top: 40px;
+    margin-top: 37px;
+    padding-top: 29px;
   }
 }
 .price-sum h5 {
@@ -1017,7 +1019,8 @@ nav a {
     display: inline-block;
     width: 89%;
     margin: 0 auto;
-    padding-top: 20px;
+    padding-top: 11px;
+    padding-bottom: 8px;
     background-image: url("../img/price-bg.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -1099,6 +1102,7 @@ nav a {
     padding-top: 0;
   }
 }
+/*form*/
 .main-form {
   /* height: 1055px;*/
   padding-top: 128px;
@@ -1118,6 +1122,11 @@ nav a {
     padding-top: 105px;
   }
 }
+@media (max-width: 576px) {
+  .main-form {
+    padding-top: 52px;
+  }
+}
 .form-container {
   width: 40.28%;
   margin: 0 auto;
@@ -1133,6 +1142,11 @@ nav a {
     width: 65%;
   }
 }
+@media (max-width: 576px) {
+  .form-container {
+    width: 89%;
+  }
+}
 .form-container h5 {
   font-family: Aileron-Regular;
   font-size: 34px;
@@ -1145,6 +1159,13 @@ nav a {
   .form-container h5 {
     font-size: 24px;
     margin-bottom: 10px;
+  }
+}
+@media (max-width: 576px) {
+  .form-container h5 {
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    margin-bottom: 14px;
   }
 }
 .form-container h6 {
@@ -1162,6 +1183,16 @@ nav a {
     margin-bottom: 22px;
   }
 }
+@media (max-width: 576px) {
+  .form-container h6 {
+    font-size: 13px;
+    line-height: 17px;
+    width: 64%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    letter-spacing: 0.2px;
+  }
+}
 .form-container p {
   width: 318px;
   margin: 0 auto;
@@ -1176,6 +1207,14 @@ nav a {
   .form-container p {
     font-size: 12px;
     letter-spacing: -1.3px;
+  }
+}
+@media (max-width: 576px) {
+  .form-container p {
+    font-size: 11px;
+    letter-spacing: -1.3px;
+    width: 220px;
+    line-height: 15px;
   }
 }
 .form-input-style {
@@ -1197,7 +1236,9 @@ nav a {
 }
 @media (max-width: 576px) {
   .form-input-style {
-    width: 200px;
+    width: 284px;
+    height: 48px;
+    padding-left: 14px;
   }
 }
 .textarea-style {
@@ -1218,6 +1259,11 @@ nav a {
     font-size: 16px;
   }
 }
+@media (max-width: 576px) {
+  ::-webkit-input-placeholder {
+    font-size: 14px;
+  }
+}
 ::-moz-placeholder {
   font-family: Aileron-Regular;
   font-size: 18px;
@@ -1226,6 +1272,11 @@ nav a {
 @media (max-width: 992px) {
   ::-moz-placeholder {
     font-size: 16px;
+  }
+}
+@media (max-width: 576px) {
+  ::-moz-placeholder {
+    font-size: 14px;
   }
 }
 :-moz-placeholder {
@@ -1238,6 +1289,11 @@ nav a {
     font-size: 16px;
   }
 }
+@media (max-width: 576px) {
+  :-moz-placeholder {
+    font-size: 14px;
+  }
+}
 :-ms-input-placeholder {
   font-family: Aileron-Regular;
   font-size: 18px;
@@ -1246,6 +1302,11 @@ nav a {
 @media (max-width: 992px) {
   :-ms-input-placeholder {
     font-size: 16px;
+  }
+}
+@media (max-width: 576px) {
+  :-ms-input-placeholder {
+    font-size: 14px;
   }
 }
 .form-input-text-style {
@@ -1278,6 +1339,15 @@ nav a {
     margin-bottom: 11px;
   }
 }
+@media (max-width: 576px) {
+  .form-btn {
+    margin-top: 10px;
+    margin-bottom: 11px;
+    width: 267px;
+    height: 45px;
+    padding-top: 10px;
+  }
+}
 .form-btn p {
   font-family: Aileron-Bold;
   color: #2f5bea;
@@ -1285,5 +1355,11 @@ nav a {
   font-weight: 600;
   letter-spacing: 1.5px;
   text-transform: uppercase;
+}
+@media (max-width: 576px) {
+  .form-btn p {
+    font-size: 12px;
+    letter-spacing: 0;
+  }
 }
 /*# sourceMappingURL=styles.css.map */
