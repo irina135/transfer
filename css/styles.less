@@ -64,13 +64,19 @@ h3 {
 }
 /*404*/
 main {
+  border: red 1px solid;
   display: flex;
   width: 100%;
-  height: auto;
+  /*height: 800px;*/
+  width: auto;
   background-image: url("../img/404_изображение.jpg");
   background-repeat: no-repeat;
   background-size: 100% 100%;
-  /*background-position: 34.5% 105.5%;*/
+  @media (max-width: 992px){
+    background-image: url("../img/404_изображение.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  }
 }
 .main_text {
   padding-left: 15.3%;
@@ -120,6 +126,10 @@ main {
   height: 42px;
   margin-left: 5px;
   border-bottom: white 2px solid;
+  margin-bottom: 103%;
+  @media (max-width: 1200px){
+    margin-bottom: 79%;
+  }
 }
 
 .main_img {
@@ -329,7 +339,9 @@ nav {
     }
   }
 }
-.header-text-margin {margin-left: 30px}
+.header-text-margin {
+  margin-left: 30px;
+}
 .header-img {
   width: 48.5%;
   margin-top: 48px;
@@ -400,7 +412,7 @@ nav {
       font-size: 13px;
       line-height: 20px;
       margin-bottom: 13px;
-      width: 95%;
+      width: 100%;
     }
     @media (min-width: 1800px){
       font-size: 20px;
@@ -911,12 +923,21 @@ nav {
   padding-top: 37px;
   @media (max-width: 992px){
     padding-top: 32px;
+    margin-left: 0;
   }
   @media (max-width: 576px){
     padding-top: 0;
+    margin-left: 0;
+    width: 100%;
   }
   @media (min-width: 1800px){
     padding-top: 60px;
+  }
+  p {
+    @media (min-width: 1439px){
+      width: 70%;
+      margin-left: 20px;
+    }
   }
 }
 .price-info-text2 {
