@@ -1724,4 +1724,26 @@ nav a {
     font-size: 20px;
   }
 }
+.input-file {
+  margin-left: 35px;
+  text-align: left;
+  font-family: Aileron-Regular;
+  font-size: 18px;
+  color: #7e8085;
+}
+@media (max-width: 992px) {
+  .input-file {
+    font-size: 16px;
+  }
+}
+@media (max-width: 576px) {
+  .input-file {
+    font-size: 14px;
+  }
+}
+@media (min-width: 1800px) {
+  .input-file {
+    font-size: 24px;
+  }
+}
 /*# sourceMappingURL=styles.css.map */

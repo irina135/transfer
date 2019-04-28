@@ -75,8 +75,8 @@
     </div>
 </header>
 <div id="header-img-navicon">
-                        &#9776;
-                    </div>
+    &#9776;
+</div>
 <div id="header-mobile-menu" class="header-mobile header-mobile-display-none">
     <div class="header-mobile-logo">
         <img src="img/logo.png">
@@ -95,8 +95,8 @@
     <div class="request header-mobile-request">
         <a href="#id-request" class="request">ОСТАВИТЬ ЗАЯВКУ</a>
     </div>
-  <div class="header-mobile-img">
-       <img src="img/photo.png">
+    <div class="header-mobile-img">
+        <img src="img/photo.png">
     </div>
 </div>
 <h3>Обо мне</h3>
@@ -225,8 +225,10 @@
             <input type="text" name="form-name" class="form-input-style" placeholder="Ваше имя">
             <input type="email" name="form-email" class="form-input-style" placeholder="Email, Skype или WhatsApp для связи">
             <textarea id="txtInput" class="form-input-style textarea-style" placeholder="Опишите задачу"></textarea>
-            <input type="file" name="form-file1" class="form-input-style form-input-file-style" style="display:none">
-            <div class="bbb"></div>
+            <input type="file" id="file1" name="form-file1" class="form-input-style form-input-file-style" style="display:none">
+            <div id="upfile1" style="cursor:pointer" class="form-input-style form-input-file-style input-file">
+                Загрузите документы для перевода
+            </div>
             <button type="submit" class="form-btn"><p>Отправить заявку &#8594;</p></button>
         </form>
         <p>
@@ -238,17 +240,17 @@
 <script src="vendors/pixlayout/jquery.pixlayout.min.js"></script>
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js" type="text/javascript"></script>
 <script>
-     $(document).ready(function () {
-
+    $(document).ready(function () {
         $('#header-img-navicon').click(function(event) {
             $('#header-mobile-opacity').toggleClass('header-opacity');
             $('#header-mobile-menu').toggleClass('header-mobile-display-none');
             $('#header-img-none').toggleClass('header-img-opacity')
         });
-        $( "input" ).val( function( index, val ) {
-    return val + "more text";
-});
-     })
+        $("#upfile1").click(function () {
+            $("#file1").trigger('click');
+
+        });
+    })
 </script>
 </body>
 </html>
