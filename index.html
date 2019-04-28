@@ -69,8 +69,8 @@
                 <a href="#id-request" class="request">ОСТАВИТЬ ЗАЯВКУ</a>
             </div>
         </div>
-        <div id="cat" class="header-img">
-            <img src="img/photo.png">
+        <div class="header-img">
+            <img id="header-img-none" src="img/photo.png">
         </div>
     </div>
 </header>
@@ -95,8 +95,8 @@
     <div class="request header-mobile-request">
         <a href="#id-request" class="request">ОСТАВИТЬ ЗАЯВКУ</a>
     </div>
-   <div class="header-mobile-img">
-        <img src="img/photo.png">
+  <div class="header-mobile-img">
+       <img src="img/photo.png">
     </div>
 </div>
 <h3>Обо мне</h3>
@@ -225,7 +225,8 @@
             <input type="text" name="form-name" class="form-input-style" placeholder="Ваше имя">
             <input type="email" name="form-email" class="form-input-style" placeholder="Email, Skype или WhatsApp для связи">
             <textarea id="txtInput" class="form-input-style textarea-style" placeholder="Опишите задачу"></textarea>
-            <input type="file" name="form-file1" class="form-input-style form-input-file-style">
+            <input type="file" name="form-file1" class="form-input-style form-input-file-style" style="display:none">
+            <div class="bbb"></div>
             <button type="submit" class="form-btn"><p>Отправить заявку &#8594;</p></button>
         </form>
         <p>
@@ -242,6 +243,7 @@
         $('#header-img-navicon').click(function(event) {
             $('#header-mobile-opacity').toggleClass('header-opacity');
             $('#header-mobile-menu').toggleClass('header-mobile-display-none');
+            $('#header-img-none').toggleClass('header-img-opacity')
         });
         $( "input" ).val( function( index, val ) {
     return val + "more text";

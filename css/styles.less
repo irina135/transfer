@@ -209,10 +209,15 @@ main {
 }
 /*main header*/
 .header-opacity {
-  opacity: 0.1;
+  @media (max-width: 576px){
+    opacity: 0.1;
+  }
 }
 .header-mobile-display-none {
   display: none;
+}
+.header-img-opacity {
+  opacity: 0;
 }
 header {
   width: 100%;
