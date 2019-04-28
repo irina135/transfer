@@ -1434,6 +1434,7 @@ nav a {
   }
 }
 .form-container {
+  position: relative;
   width: 40.28%;
   margin: 0 auto;
   text-align: center;
@@ -1674,7 +1675,7 @@ nav a {
 .form-btn {
   width: 307px;
   height: 55px;
-  margin-top: 26px;
+  margin-top: 41px;
   margin-bottom: 16px;
   border-radius: 28px;
   padding-top: 13px;
@@ -1725,7 +1726,8 @@ nav a {
   }
 }
 .input-file {
-  margin-left: 35px;
+  position: relative;
+  margin: 0 auto;
   text-align: left;
   font-family: Aileron-Regular;
   font-size: 18px;
@@ -1745,5 +1747,32 @@ nav a {
   .input-file {
     font-size: 24px;
   }
+}
+#input-btn {
+  position: absolute;
+  width: 75px;
+  height: 75px;
+  border-left: #c5d0e6 1px solid;
+  left: 451px;
+  top: 386px;
+  font-size: 35px;
+  color: #2f5bea;
+  padding-top: 21px;
+  padding-left: 6px;
+}
+#input-btn2 {
+  position: absolute;
+  width: 75px;
+  height: 75px;
+  border-left: #c5d0e6 1px solid;
+  left: 451px;
+  top: 475px;
+  font-size: 35px;
+  color: #2f5bea;
+  padding-top: 21px;
+  padding-left: 6px;
+}
+#input-display-none {
+  margin-top: 14px;
 }
 /*# sourceMappingURL=styles.css.map */

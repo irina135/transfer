@@ -225,9 +225,22 @@
             <input type="text" name="form-name" class="form-input-style" placeholder="Ваше имя">
             <input type="email" name="form-email" class="form-input-style" placeholder="Email, Skype или WhatsApp для связи">
             <textarea id="txtInput" class="form-input-style textarea-style" placeholder="Опишите задачу"></textarea>
+
             <input type="file" id="file1" name="form-file1" class="form-input-style form-input-file-style" style="display:none">
             <div id="upfile1" style="cursor:pointer" class="form-input-style form-input-file-style input-file">
                 Загрузите документы для перевода
+            </div>
+            <div id="input-btn">
+                +
+            </div>
+            <div id="input-display-none" class="header-mobile-display-none">
+                <input type="file" id="file2" name="form-file1" class="form-input-style form-input-file-style" style="display:none">
+                <div id="upfile2" style="cursor:pointer" class="form-input-style form-input-file-style input-file">
+                    Загрузите документы для перевода
+                </div>
+                <div id="input-btn2">
+                    +
+                </div>
             </div>
             <button type="submit" class="form-btn"><p>Отправить заявку &#8594;</p></button>
         </form>
@@ -248,7 +261,12 @@
         });
         $("#upfile1").click(function () {
             $("#file1").trigger('click');
-
+        });
+        $("#upfile2").click(function () {
+            $("#file2").trigger('click');
+        });
+        $('#input-btn').click(function (event) {
+            $('#input-display-none').toggleClass('header-mobile-display-none')
         });
     })
 </script>
