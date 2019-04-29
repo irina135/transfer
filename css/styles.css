@@ -269,8 +269,10 @@ main a:active {
 .header-mobile-display-none {
   display: none;
 }
-.header-img-opacity {
-  opacity: 0;
+@media (max-width: 576px) {
+  .header-img-opacity {
+    opacity: 0;
+  }
 }
 header {
   width: 100%;
