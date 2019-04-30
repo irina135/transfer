@@ -1282,8 +1282,6 @@ nav a {
   background: white;
   width: 100%;
   padding: 7px 14px 12px 14px;
-  /*padding-left: 30px;
-  padding-right: 30px;*/
   border: #e7Eaee 1px solid;
 }
 @media (max-width: 992px) {
@@ -1318,20 +1316,14 @@ nav a {
 }
 .price-info-text {
   width: 20%;
-  /* padding-top: 52px;*/
   display: table;
   margin-left: 12px;
   margin-right: 12px;
-  /*
-  background-image: url("../img/price-bg.png");
-  background-repeat: no-repeat;
-  background-size: 100% 100%;*/
   text-align: center;
   height: 152px;
 }
 @media (max-width: 992px) {
   .price-info-text {
-    /* padding-top: 33px;*/
     height: 120px;
   }
 }
