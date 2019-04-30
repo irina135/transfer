@@ -950,6 +950,7 @@ nav {
     margin: 0 auto;
     margin-top: 37px;
     padding-top: 29px;
+    height: 135px;
   }
   @media (min-width: 1800px){
     height: 200px;
@@ -993,12 +994,16 @@ nav {
   justify-content: space-between;
   background: white;
   width: 100%;
-  padding-left: 30px;
-  padding-right: 30px;
+  padding: 7px 14px 12px 14px;
+  /*padding-left: 30px;
+  padding-right: 30px;*/
   border: #e7Eaee 1px solid;
   @media (max-width: 992px) {
-    padding-left: 10px;
-    padding-right: 10px;
+    padding: 0 10px 0 10px;
+  }
+   @media (max-width: 768px) {
+    padding-left: 0;
+    padding-right: 0;
   }
   @media (max-width: 576px) {
     display: inline-block;
@@ -1012,23 +1017,30 @@ nav {
   }
 }
 .text-middle {
-  border: #00cc00 1px solid;
    display: table-cell;
-  vertical-align: middle;;
+  vertical-align: middle;
+  background-image: url("../img/price-bg.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
 .price-info-text {
   width: 20%;
  /* padding-top: 52px;*/
   display: table;
-  border: red 1px solid;
+  margin-left: 12px;
+  margin-right: 12px;
+  /*
   background-image: url("../img/price-bg.png");
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size: 100% 100%;*/
   text-align: center;
   height: 152px;
   @media (max-width: 992px){
-    padding-top: 33px;
+   /* padding-top: 33px;*/
     height: 120px;
+  }
+  @media (max-width: 768px) {
+    width: 18%;
   }
   @media (max-width: 576px){
     width: 100%;
@@ -1051,8 +1063,13 @@ nav {
       font-size: 14px;
       line-height: 20px;
     }
+     @media (max-width: 768px){
+      font-size: 12px;
+    }
     @media (max-width: 576px){
       padding-bottom: 14px;
+      font-size: 14px;
+      letter-spacing: 0.7px;
     }
     @media (min-width: 1800px){
       font-size: 20px;
