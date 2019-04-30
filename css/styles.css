@@ -1767,6 +1767,11 @@ nav a {
     font-size: 24px;
   }
 }
+@media (max-width: 992px) {
+  .input-file-text {
+    opacity: 0;
+  }
+}
 #input-display-none {
   position: relative;
   width: 488px;
@@ -1831,19 +1836,19 @@ nav a {
 }
 @media (max-width: 992px) {
   #input-btn {
-    left: 306px;
+    left: 287px;
     top: 0;
-    width: 29px;
+    width: 48px;
     height: 48px;
-    padding-left: 5px;
+    padding-left: 7px;
     padding-top: 6px;
   }
 }
 @media (max-width: 576px) {
   #input-btn {
-    left: 265px;
+    left: 236px;
     top: 0;
-    width: 19px;
+    width: 48px;
     height: 48px;
     padding-left: 0;
     padding-top: 13px;
@@ -1873,19 +1878,19 @@ nav a {
 }
 @media (max-width: 992px) {
   #input-btn2 {
-    left: 306px;
+    left: 287px;
     top: 0;
-    width: 29px;
+    width: 48px;
     height: 48px;
-    padding-left: 5px;
+    padding-left: 7px;
     padding-top: 6px;
   }
 }
 @media (max-width: 576px) {
   #input-btn2 {
-    left: 265px;
+    left: 236px;
     top: 0;
-    width: 19px;
+    width: 48px;
     height: 48px;
     padding-left: 0;
     padding-top: 13px;
