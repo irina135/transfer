@@ -456,6 +456,7 @@ nav a {
 @media (max-width: 576px) {
   .header-container {
     display: inline-block;
+    width: 100%;
   }
 }
 .header-text {
@@ -638,8 +639,10 @@ nav a {
 }
 @media (max-width: 576px) {
   .header-img {
+    width: 100%;
+    margin: 0 auto;
     margin-top: 83px;
-    margin-left: 21px;
+    text-align: center;
     margin-bottom: 33px;
   }
 }
@@ -1681,10 +1684,16 @@ nav a {
   padding-bottom: 8px;
   padding-left: 1px;
   background: white;
+  font-family: Aileron-Bold;
+  color: #2f5bea;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
 }
 @media (max-width: 992px) {
   .form-btn {
-    margin-top: 19px;
+    margin-top: 29px;
     margin-bottom: 11px;
   }
 }
@@ -1705,24 +1714,19 @@ nav a {
     border-radius: 38px;
   }
 }
-.form-btn p {
-  font-family: Aileron-Bold;
-  color: #2f5bea;
-  font-size: 16px;
-  font-weight: 600;
-  letter-spacing: 1.5px;
-  text-transform: uppercase;
-}
 @media (max-width: 576px) {
-  .form-btn p {
+  .form-btn {
     font-size: 12px;
     letter-spacing: 0.5px;
   }
 }
 @media (min-width: 1800px) {
-  .form-btn p {
+  .form-btn {
     font-size: 20px;
   }
+}
+.form-btn img {
+  margin-top: -2px;
 }
 .input-file {
   position: relative;
