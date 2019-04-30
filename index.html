@@ -18,7 +18,7 @@
             <img src="img/logo.png">
         </div>
         <div class="nav-logo">
-            <img src="img/logo.png">
+            <img src="img/logo.svg">
         </div>
         <div class="nav-link nav-link-active">
             <a href="#">Услуги</a>
@@ -260,7 +260,7 @@
                     +
                 </div>
             </div>
-            <div id="input-display-none" class="header-mobile-display-none">
+            <div id="input-display-none">
                 <input type="file" id="file2" name="form-file1" class="form-input-style form-input-file-style" style="display:none">
                 <div id="upfile2" style="cursor:pointer" class="form-input-style form-input-file-style input-file">
                     Загрузите документы для перевода
@@ -269,7 +269,7 @@
                     +
                 </div>
             </div>
-            <button type="submit" class="form-btn">Отправить заявку <!--&#8594;--><img src="img/arrow.svg"></button>
+            <button type="submit" class="form-btn">Отправить заявку <img src="img/arrow.svg"></button>
         </form>
         <p>
             “Заполняя форму, вы принимаете условия обработки персональных данных”
@@ -286,15 +286,8 @@
             $('#header-mobile-menu').toggleClass('header-mobile-display-none');
             $('#header-img-none').toggleClass('header-img-opacity')
         });
-        $("#upfile1").click(function () {
-            $("#file1").trigger('click');
-        });
-        $("#upfile2").click(function () {
-            $("#file2").trigger('click');
-        });
-        $('#input-btn').click(function (event) {
-            $('#input-display-none').toggleClass('header-mobile-display-none')
-        });
+
+
     })
 </script>
 </body>
