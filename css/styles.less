@@ -1,3 +1,4 @@
+
 * {
   box-sizing: border-box;
 }
@@ -18,13 +19,22 @@ a {
   font-family: Aileron-Regular;
   src: url("../fonts/Aileron-Regular.ttf");
 }
+@font-face {
+  font-family: Lucida Grande;
+  src: url("../fonts/Lucida Grande.ttf");
+}
+@font-face {
+  font-family: Lucida Grande Bold;
+  src: url("../fonts/Lucida Grande Bold.ttf");
+}
 .request a {
-  font-family: Aileron-Regular;
+  font-family: Lucida Grande;
   color: white;
   background: #2f5bea;
   font-size: 16px;
   font-weight: 700;
-  letter-spacing: 0.6px;
+  /*letter-spacing: 0.6px;*/
+  letter-spacing: 0;
   padding: 21px 34px 18px 32px;
   border-radius: 30px;
   @media (max-width: 992px){
@@ -45,7 +55,7 @@ a {
   }
 }
 h3 {
-  font-family: Aileron-Bold;
+  font-family: Lucida Grande Bold;
   text-align: center;
   font-size: 34px;
   font-weight: 700;
@@ -134,7 +144,7 @@ main {
     padding-left: 33px;
   }
   h1 {
-    font-family: Aileron-Bold;
+    font-family: Lucida Grande Bold;
     font-size: 46px;
     font-weight: 700;
     margin-bottom: 19px;
@@ -161,7 +171,7 @@ main {
     }
   }
   p {
-    font-family: Aileron-Regular;
+    font-family: Lucida Grande;
     font-size: 18px;
     font-weight: 400;
     line-height: 34px;
@@ -178,7 +188,7 @@ main {
     }
   }
   a {
-    font-family: Aileron-Bold;
+    font-family: Lucida Grande Bold;
     display: inline-block;
     font-size: 16px;
     font-weight: 400;
@@ -252,9 +262,17 @@ header {
     margin-bottom: 3px;
     background-position: 78% 90%;
   }
+  /*
   @media (max-width: 576px){
     background-position: 2% 0;
     padding-top: 18px;
+  }
+  */
+  @media (max-width: 576px){
+   background-size: 200% 70%;
+    background-position: 100% 0;
+    padding-top: 18px;
+
   }
   @media (min-width: 1800px){
     padding-bottom: 180px;
@@ -281,7 +299,7 @@ nav {
   }
 
   a {
-    font-family: Aileron-Regular;
+    font-family: Lucida Grande;
     font-size: 16px;
     font-weight: 400;
     color: #2c2e30;
@@ -341,11 +359,12 @@ nav {
   }
 }
 .nav-request a {
-  font-family: Aileron-Regular;
+  font-family: Lucida Grande;
   font-size: 14px;
   font-weight: 700;
   color: #2f5bea;
-  padding: 18px 30px 18px 21px;
+  padding: 18px 30px 18px 30px;
+ /* padding: 18px 30px 18px 21px;*/
   border: #2f5bea 1px solid;
   border-radius: 30px;
   @media (max-width: 992px){
@@ -391,7 +410,7 @@ nav {
     margin-top: 130px;
   }
   h1 {
-    font-family: Aileron-Bold;
+    font-family: Lucida Grande Bold;
     font-size: 44px;
     font-weight: 700;
     margin-bottom: 12px;
@@ -439,6 +458,7 @@ nav {
   }
 }
 .header-text-list {
+  opacity: 0.3;
   width: 11px;
   height: 11px;
   border-radius: 50%;
@@ -457,7 +477,7 @@ nav {
 }
 .header-text-text {
   p {
-    font-family: Aileron-Regular;
+    font-family: Lucida Grande;
     margin-bottom: 20px;
     font-size: 16px;
     font-weight: 400;
@@ -547,7 +567,7 @@ nav {
     font-weight: 700;
     line-height: 34px;
     color: #2c2e30;
-    font-family: Aileron-Bold;
+    font-family: Lucida Grande Bold;
   }
 }
 .header-mobile-line {
@@ -573,10 +593,10 @@ nav {
 }
 #header-img-navicon {
   position: absolute;
-  left: 90%;
-  top: 15px;
+  left: 88%;
+  top: 18px;
   font-size: 22px;
-  color: black;
+  color: #2f5bea;
   @media (min-width: 576px){
     display: none;
   }
@@ -655,7 +675,9 @@ nav {
     padding-top: 24px;
   }
   h4 {
-    font-family: Aileron-Bold;
+    font-family: Lucida Grande;
+    /*
+    font-family: Aileron-Bold;*/
     font-size: 24px;
     font-weight: 700;
     line-height: 34px;
@@ -682,7 +704,7 @@ nav {
     }
   }
   p {
-    font-family: Aileron-Regular;
+    font-family: Lucida Grande;
     font-size: 16px;
     line-height: 28px;
     color: #7e8085;
@@ -819,7 +841,7 @@ nav {
     }
   }
   p {
-    font-family: Aileron-Bold;
+    font-family: Lucida Grande Bold;
     font-size: 20px;
     font-weight: 700;
     color: #2c2e30;
@@ -965,7 +987,7 @@ nav {
     height: 200px;
   }
   h5 {
-    font-family: Aileron-Regular;
+    font-family: Lucida Grande;
     font-size: 60px;
     font-weight: 400;
     color: #2f5bea;
@@ -979,7 +1001,7 @@ nav {
     }
   }
   p {
-    font-family: Aileron-Bold;
+    font-family: Lucida Grande Bold;
     font-size: 18px;
     font-weight: 600;
     line-height: 34px;
@@ -1056,7 +1078,7 @@ nav {
     padding-right: 10px;
   }
   p {
-    font-family: Aileron-Regular;
+    font-family: Lucida Grande;
     font-size: 16px;
     line-height: 28px;
     color: #7e8085;
@@ -1123,8 +1145,7 @@ nav {
 /*form*/
 .main-form {
   /* height: 1055px;*/
-  padding-top: 128px;
-  padding-bottom: 116px;
+  padding-top: 108px;
   background-image: url("../img/form-bg.png");
   background-size: 100% 100%;
   background-repeat: no-repeat;
@@ -1154,7 +1175,7 @@ nav {
     width: 89%;
   }
   h5 {
-    font-family: Aileron-Regular;
+    font-family: Lucida Grande;
     font-size: 34px;
     font-weight: 700;
     color: white;
@@ -1175,7 +1196,7 @@ nav {
     }
   }
   h6 {
-    font-family: Aileron-Regular;
+    font-family: Lucida Grande;
     font-size: 18px;
     font-weight: 400;
     line-height: 34px;
@@ -1202,7 +1223,7 @@ nav {
   p {
     width: 318px;
     margin: 0 auto;
-    font-family: Aileron-Regular;
+    font-family: Lucida Grande;
     font-size: 14px;
     font-weight: 400;
     letter-spacing: -0.2px;
@@ -1252,8 +1273,11 @@ nav {
     padding-top: 18px;
   }
 }
+.error {
+  border: red 1px solid;
+}
 ::-webkit-input-placeholder {
-  font-family: Aileron-Regular;
+  font-family: Lucida Grande;
   font-size: 18px;
   color: #7e8085;
   @media (max-width: 992px){
@@ -1267,7 +1291,7 @@ nav {
   }
 }
 ::-moz-placeholder          {
-  font-family: Aileron-Regular;
+  font-family: Lucida Grande;
   font-size: 18px;
   color: #7e8085;
   @media (max-width: 992px){
@@ -1281,7 +1305,7 @@ nav {
   }
 }
 :-moz-placeholder           {
-  font-family: Aileron-Regular;
+  font-family: Lucida Grande;
   font-size: 18px;
   color: #7e8085;
   @media (max-width: 992px){
@@ -1295,7 +1319,7 @@ nav {
   }
 }
 :-ms-input-placeholder      {
-  font-family: Aileron-Regular;
+  font-family: Lucida Grande;
   font-size: 18px;
   color: #7e8085;
   @media (max-width: 992px){
@@ -1352,11 +1376,12 @@ nav {
     height: 75px;
     border-radius: 38px;
   }
-  font-family: Aileron-Bold;
+  font-family: Lucida Grande Bold;
   color: #2f5bea;
   font-size: 16px;
   font-weight: 600;
-  letter-spacing: 1.5px;
+  letter-spacing: 0;
+  /*letter-spacing: 1.5px;*/
   text-transform: uppercase;
   @media (max-width: 576px){
     font-size: 12px;
@@ -1366,6 +1391,7 @@ nav {
     font-size: 20px;
   }
   img {
+    margin-left: 22px;
     margin-top: -2px;
   }
 }
@@ -1373,7 +1399,7 @@ nav {
   position: relative;
   margin: 0 auto;
   text-align: left;
-  font-family: Aileron-Regular;
+  font-family: Lucida Grande;
   font-size: 18px;
   color: #7e8085;
   @media (max-width: 992px){
