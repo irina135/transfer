@@ -475,7 +475,8 @@ header {
 }
 @media (max-width: 1200px) {
   header {
-    padding-bottom: 145px;
+    /* padding-bottom: 145px;*/
+    padding-bottom: 100px;
     margin-bottom: 0;
   }
 }
