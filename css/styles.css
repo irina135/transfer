@@ -1613,6 +1613,7 @@ nav a {
 .main-form {
   /* height: 1055px;*/
   padding-top: 108px;
+  padding-bottom: 60px;
   background-image: url("../img/form-bg.png");
   background-size: 100% 100%;
   background-repeat: no-repeat;
